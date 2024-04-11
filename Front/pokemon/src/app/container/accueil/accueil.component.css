@@ -1,0 +1,39 @@
+/* accueil.component.css */
+
+.accueil-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  .pokemon-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pokemon-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h3 {
+    margin-top: 10px;
+    color: #333;
+  }
+  

@@ -1,0 +1,10 @@
+<app-nav-bar-co></app-nav-bar-co>
+<!-- pokemon-view.component.html -->
+<div *ngIf="pokemon">
+    <h2>{{ pokemon.name }}</h2>
+    <img [src]="pokemon.picture" alt="{{ pokemon.name }}">
+    <p>HP: {{ pokemon.hp }}, CP: {{ pokemon.cp }}</p>
+    <p>Types: {{ pokemon.types.join(', ') }}</p>
+    <!-- Ajoutez d'autres détails du Pokémon selon vos besoins -->
+  </div>
+  

@@ -1,0 +1,16 @@
+/* dashboard.component.css */
+:host {
+    display: block;
+    margin: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  /* Ajoutez d'autres styles selon vos besoins */
+  

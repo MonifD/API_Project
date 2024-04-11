@@ -1,0 +1,8 @@
+#Terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+/.terraform
+/.terraform/providers/registry.terraform.io/azure/azapi/
+/.terraform/providers/registry.terraform.io/hashicorp/azurerm/
+terraform.tfvars

@@ -1,0 +1,12 @@
+<app-nav-bar-co></app-nav-bar-co>
+
+<div *ngFor="let pokemon of pokemons">
+  <div (click)="navigateToPokemonView(pokemon._id)">
+    <div>
+      <img [src]="pokemon.picture" alt="{{ pokemon.name }}">
+      <h3>{{ pokemon.name }}</h3>
+      <p>HP: {{ pokemon.hp }}, CP: {{ pokemon.cp }}</p>
+      <p>Types: {{ pokemon.types.join(', ') }}</p>
+    </div>
+  </div>
+</div>
